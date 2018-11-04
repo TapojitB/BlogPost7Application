@@ -26,3 +26,542 @@
 2018-11-04 11:19:53.767  INFO 11680 --- [http-nio-8000-exec-1] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
 2018-11-04 11:20:19.123  INFO 11680 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2018-11-04 11:20:19.132  INFO 11680 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:11:46.491  INFO 16140 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:11:46.491  INFO 3592 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:11:48.024  WARN 16140 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:11:48.062  WARN 3592 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:11:48.380  INFO 16140 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:11:48.459  INFO 3592 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:11:48.568  INFO 16140 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c3d9f999] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:11:48.630  INFO 3592 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c6fd9434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:11:49.349  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2018-11-04 13:11:49.374  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2018-11-04 13:11:49.386  INFO 16140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:11:49.388  INFO 16140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:11:49.388  INFO 16140 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:11:49.404  INFO 3592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:11:49.404  INFO 3592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:11:49.419  INFO 3592 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:11:49.863  INFO 3592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:11:49.878  INFO 3592 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3356 ms
+2018-11-04 13:11:49.878  INFO 16140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:11:49.878  INFO 16140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3371 ms
+2018-11-04 13:11:50.066  WARN 16140 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:11:50.066  INFO 16140 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:11:50.066  WARN 3592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:11:50.066  INFO 3592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:11:50.081  INFO 16140 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@12834e09
+2018-11-04 13:11:50.097  INFO 3592 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a14ae02
+2018-11-04 13:11:51.964  INFO 16140 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:11:51.998  INFO 3592 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:11:53.708  INFO 16140 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:11:53.774  INFO 3592 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:11:53.870  INFO 3592 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:11:53.917  INFO 16140 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:11:53.964  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:11:54.020  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:11:54.756  INFO 16140 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:11:54.759  INFO 16140 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:11:54.775  INFO 3592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:11:54.781  INFO 3592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:11:55.046  INFO 3592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:11:55.046  INFO 16140 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:11:55.046  INFO 16140 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:11:55.046  INFO 3592 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:11:55.490  INFO 16140 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:11:55.490  INFO 3592 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:11:55.833  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:11:55.848  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:11:55.850  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:11:55.850  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:11:55.850  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:11:55.850  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:11:55.850  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:11:55.850  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:11:55.850  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:11:55.864  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:11:55.864  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:11:55.864  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:11:55.864  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:11:55.864  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:11:56.289  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:11:56.305  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:11:56.305  INFO 16140 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:11:56.320  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:11:56.327  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541317316320 with initial instances count: 2
+2018-11-04 13:11:56.327  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:11:56.335  INFO 3592 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:11:56.343  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541317316339 with initial instances count: 2
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:11:56.645  INFO 16140 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:11:56.661  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:11:56.661  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:11:56.677  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:11:56.677  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:11:56.677  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:11:56.677  INFO 3592 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:11:56.677  INFO 3592 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:11:56.723  WARN 16140 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:11:56.723  INFO 16140 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:11:56.755  WARN 3592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:11:56.755  INFO 3592 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:11:57.050  INFO 16140 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:11:57.113  INFO 3592 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:11:57.727  WARN 3592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:11:57.758  WARN 16140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:11:57.814  INFO 3592 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:11:57.858  INFO 16140 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:11:57.987  INFO 3592 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:11:57.987  INFO 3592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541317317987, current=UP, previous=STARTING]
+2018-11-04 13:11:58.003  INFO 3592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001: registering service...
+2018-11-04 13:11:58.049  INFO 16140 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:11:58.049  INFO 16140 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541317318049, current=UP, previous=STARTING]
+2018-11-04 13:11:58.083  INFO 3592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001 - registration status: 204
+2018-11-04 13:11:58.049  INFO 16140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000: registering service...
+2018-11-04 13:11:58.129  INFO 3592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2018-11-04 13:11:58.147  INFO 3592 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8001
+2018-11-04 13:11:58.147  INFO 3592 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 16.132 seconds (JVM running for 17.847)
+2018-11-04 13:11:58.147  INFO 16140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000 - registration status: 204
+2018-11-04 13:11:58.177  INFO 16140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2018-11-04 13:11:58.177  INFO 16140 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2018-11-04 13:11:58.177  INFO 16140 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 16.178 seconds (JVM running for 17.885)
+2018-11-04 13:13:06.489  INFO 3592 --- [Thread-3] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application area-service with eureka with status DOWN
+2018-11-04 13:13:06.507  INFO 16140 --- [Thread-3] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application area-service with eureka with status DOWN
+2018-11-04 13:13:06.509  WARN 16140 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541317386509, current=DOWN, previous=UP]
+2018-11-04 13:13:06.509  WARN 3592 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541317386509, current=DOWN, previous=UP]
+2018-11-04 13:13:06.509  INFO 16140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000: registering service...
+2018-11-04 13:13:06.509  INFO 3592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001: registering service...
+2018-11-04 13:13:06.509  INFO 16140 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:13:06.509  INFO 3592 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:13:06.525  INFO 16140 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 13:13:06.525  INFO 3592 --- [Thread-3] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 13:13:06.537  INFO 3592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001 - registration status: 204
+2018-11-04 13:13:06.537  INFO 16140 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000 - registration status: 204
+2018-11-04 13:13:06.537  WARN 16140 --- [Thread-3] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-04 13:13:06.537  WARN 3592 --- [Thread-3] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-04 13:23:19.226  INFO 10384 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:23:20.352  WARN 10384 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:23:20.570  INFO 10384 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:23:20.694  INFO 10384 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4783b0bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:23:21.272  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2018-11-04 13:23:21.288  INFO 10384 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:23:21.288  INFO 10384 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:23:21.304  INFO 10384 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:23:21.484  INFO 10384 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:23:21.486  INFO 10384 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2244 ms
+2018-11-04 13:23:21.605  WARN 10384 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:23:21.609  INFO 10384 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:23:21.618  INFO 10384 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5ebeb8ac
+2018-11-04 13:23:23.265  INFO 10384 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:23:24.781  INFO 10384 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:23:24.832  INFO 10384 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:23:25.071  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:23:25.627  INFO 10384 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:23:25.628  INFO 10384 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:23:25.785  INFO 10384 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:23:25.794  INFO 10384 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:23:26.169  INFO 10384 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:23:26.507  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:23:26.507  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:23:26.507  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:23:26.507  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:23:26.511  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:23:26.511  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:23:26.511  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:23:26.880  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:23:26.886  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:23:26.902  INFO 10384 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:23:26.902  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541318006902 with initial instances count: 8
+2018-11-04 13:23:27.230  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:23:27.246  INFO 10384 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:23:27.308  WARN 10384 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:23:27.308  INFO 10384 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:23:27.692  INFO 10384 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:23:28.365  WARN 10384 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:23:28.473  INFO 10384 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:23:28.635  INFO 10384 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:23:28.635  INFO 10384 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318008635, current=UP, previous=STARTING]
+2018-11-04 13:23:28.650  INFO 10384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001: registering service...
+2018-11-04 13:23:28.725  INFO 10384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001 - registration status: 204
+2018-11-04 13:23:28.741  INFO 10384 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2018-11-04 13:23:28.741  INFO 10384 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8001
+2018-11-04 13:23:28.757  INFO 10384 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 13.312 seconds (JVM running for 14.901)
+2018-11-04 13:23:51.381  INFO 6916 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:23:52.758  WARN 6916 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:23:53.029  INFO 6916 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:23:53.186  INFO 6916 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ec2c53e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:23:54.095  INFO 6916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2018-11-04 13:23:54.117  INFO 6916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:23:54.117  INFO 6916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:23:54.133  INFO 6916 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:23:59.134  INFO 6916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:23:59.138  INFO 6916 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7742 ms
+2018-11-04 13:23:59.343  WARN 6916 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:23:59.343  INFO 6916 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:23:59.373  INFO 6916 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@23e2303f
+2018-11-04 13:24:01.105  INFO 6916 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:24:02.647  INFO 6916 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:24:02.885  INFO 6916 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:24:02.979  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:24:03.693  INFO 6916 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:24:03.699  INFO 6916 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:24:03.932  INFO 6916 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:24:03.948  INFO 6916 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:24:04.367  INFO 6916 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:24:04.727  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:24:04.727  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:24:04.742  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:24:04.742  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:24:04.743  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:24:04.743  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:24:04.743  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:24:05.238  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:24:05.254  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:24:05.254  INFO 6916 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:24:05.270  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541318045254 with initial instances count: 8
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:24:05.653  INFO 6916 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:24:05.731  WARN 6916 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:24:05.731  INFO 6916 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:24:06.157  INFO 6916 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:24:06.790  WARN 6916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:24:06.894  INFO 6916 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:24:07.145  INFO 6916 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:24:07.145  INFO 6916 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318047145, current=UP, previous=STARTING]
+2018-11-04 13:24:07.145  INFO 6916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000: registering service...
+2018-11-04 13:24:07.219  INFO 6916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000 - registration status: 204
+2018-11-04 13:24:07.298  INFO 6916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2018-11-04 13:24:07.314  INFO 6916 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2018-11-04 13:24:07.330  INFO 6916 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 20.886 seconds (JVM running for 22.926)
+2018-11-04 13:26:29.260  INFO 6916 --- [http-nio-8000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-04 13:26:29.265  INFO 6916 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-04 13:26:29.266  INFO 6916 --- [http-nio-8000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2018-11-04 13:26:29.353  INFO 6916 --- [http-nio-8000-exec-1] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:26:41.983  INFO 10384 --- [http-nio-8001-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-04 13:26:41.992  INFO 10384 --- [http-nio-8001-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-04 13:26:41.992  INFO 10384 --- [http-nio-8001-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2018-11-04 13:26:42.070  INFO 10384 --- [http-nio-8001-exec-6] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:28:26.516  INFO 10384 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:28:37.325  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-04 13:28:37.329  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application area-service with eureka with status DOWN
+2018-11-04 13:28:37.329  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318317329, current=DOWN, previous=UP]
+2018-11-04 13:28:37.329  INFO 10384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001: registering service...
+2018-11-04 13:28:37.338  INFO 10384 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001 - registration status: 204
+2018-11-04 13:28:37.342  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:28:37.346  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 13:28:37.350  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-04 13:28:37.631  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-04 13:28:37.631  INFO 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-11-04 13:28:37.631  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Eureka-JerseyClient-Conn-Cleaner2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-InstanceInfoReplicator-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-HeartbeatExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-CacheRefreshExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:37.646  WARN 10384 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-executor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.312  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-11-04 13:28:40.325  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application area-service with eureka with status DOWN
+2018-11-04 13:28:40.326  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318320326, current=DOWN, previous=UP]
+2018-11-04 13:28:40.326  INFO 6916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000: registering service...
+2018-11-04 13:28:40.335  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:28:40.341  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-11-04 13:28:40.341  INFO 6916 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000 - registration status: 204
+2018-11-04 13:28:40.345  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'scopedTarget.eurekaClient' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-04 13:28:40.656  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-04 13:28:40.656  INFO 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2018-11-04 13:28:40.656  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [Eureka-JerseyClient-Conn-Cleaner2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.656  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [AsyncResolver-bootstrap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.672  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.672  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.672  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-InstanceInfoReplicator-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.672  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-CacheRefreshExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:28:40.672  WARN 6916 --- [RMI TCP Connection(10)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [DiscoveryClient-HeartbeatExecutor-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(Unknown Source)
+ java.util.concurrent.SynchronousQueue$TransferStack.transfer(Unknown Source)
+ java.util.concurrent.SynchronousQueue.take(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.lang.Thread.run(Unknown Source)
+2018-11-04 13:32:26.154  INFO 8732 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:32:26.158  INFO 18332 --- [restartedMain] c.e.m.a.AreaServiceApplication           : No active profile set, falling back to default profiles: default
+2018-11-04 13:32:27.546  WARN 18332 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:32:27.549  WARN 8732 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2018-11-04 13:32:27.863  INFO 8732 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:32:27.903  INFO 18332 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b3d0971-472e-3068-9f8a-ca9bbd864263
+2018-11-04 13:32:28.015  INFO 8732 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$dc472a03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:32:28.067  INFO 18332 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9434e67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-04 13:32:28.835  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2018-11-04 13:32:28.863  INFO 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:32:28.867  INFO 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:32:28.867  INFO 18332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2018-11-04 13:32:28.875  INFO 8732 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:32:28.895  INFO 18332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-04 13:32:28.895  INFO 18332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-04 13:32:28.911  INFO 18332 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\TapojitBhattacharya\Softwares\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\IBM\Bluemix\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\TapojitBhattacharya\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\CVSNT\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\TapojitBhattacharya\Documents\Personal\Softwares\sts-bundle\sts-3.9.6.RELEASE;;.]
+2018-11-04 13:32:29.087  INFO 8732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:32:29.087  INFO 8732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2917 ms
+2018-11-04 13:32:29.127  INFO 18332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-04 13:32:29.127  INFO 18332 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2953 ms
+2018-11-04 13:32:29.267  WARN 8732 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:32:29.267  INFO 8732 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:32:29.291  INFO 8732 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3db53250
+2018-11-04 13:32:29.315  WARN 18332 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:32:29.315  INFO 18332 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:32:29.339  INFO 18332 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@11f1a846
+2018-11-04 13:32:31.084  INFO 8732 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:32:31.110  INFO 18332 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:32:32.649  INFO 8732 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:32:32.660  INFO 18332 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2018-11-04 13:32:32.738  INFO 8732 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:32:32.750  INFO 18332 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-11-04 13:32:33.178  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:32:33.182  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-11-04 13:32:33.874  INFO 8732 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:32:33.877  INFO 8732 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:32:33.878  INFO 18332 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-11-04 13:32:33.881  INFO 18332 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-11-04 13:32:34.130  INFO 18332 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:32:34.126  INFO 8732 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-11-04 13:32:34.130  INFO 18332 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:32:34.130  INFO 8732 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-11-04 13:32:34.594  INFO 8732 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:32:34.602  INFO 18332 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:32:35.014  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:32:35.010  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:32:35.014  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:32:35.015  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:32:35.015  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:32:35.015  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:32:35.015  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:32:35.019  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:32:35.019  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:32:35.023  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:32:35.015  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:32:35.023  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:32:35.023  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-11-04 13:32:35.027  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:32:35.383  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:32:35.383  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:32:35.387  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:32:35.387  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-11-04 13:32:35.391  INFO 18332 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:32:35.395  INFO 8732 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-11-04 13:32:35.403  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541318555403 with initial instances count: 0
+2018-11-04 13:32:35.403  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1541318555403 with initial instances count: 0
+2018-11-04 13:32:35.815  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:32:35.815  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:32:35.819  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:32:35.823  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:32:35.823  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:32:35.823  INFO 8732 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:32:35.823  INFO 8732 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:32:35.831  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-04 13:32:35.835  INFO 18332 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-04 13:32:35.927  WARN 8732 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:32:35.927  INFO 8732 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:32:35.927  WARN 18332 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-04 13:32:35.931  INFO 18332 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-04 13:32:36.331  INFO 8732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:32:36.368  INFO 18332 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-04 13:32:37.167  WARN 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:32:37.223  WARN 18332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2018-11-04 13:32:37.275  INFO 8732 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:32:37.343  INFO 18332 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-11-04 13:32:37.487  INFO 8732 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:32:37.490  INFO 8732 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318557490, current=UP, previous=STARTING]
+2018-11-04 13:32:37.494  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000: registering service...
+2018-11-04 13:32:37.590  INFO 18332 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application area-service with eureka with status UP
+2018-11-04 13:32:37.601  INFO 18332 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1541318557601, current=UP, previous=STARTING]
+2018-11-04 13:32:37.609  INFO 18332 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001: registering service...
+2018-11-04 13:32:37.653  INFO 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2018-11-04 13:32:37.657  INFO 8732 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8000
+2018-11-04 13:32:37.661  INFO 8732 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 15.877 seconds (JVM running for 17.525)
+2018-11-04 13:32:37.765  INFO 18332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2018-11-04 13:32:37.769  INFO 18332 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8001
+2018-11-04 13:32:37.781  INFO 18332 --- [restartedMain] c.e.m.a.AreaServiceApplication           : Started AreaServiceApplication in 15.997 seconds (JVM running for 17.663)
+2018-11-04 13:32:37.811  INFO 8732 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8000 - registration status: 204
+2018-11-04 13:32:37.811  INFO 18332 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AREA-SERVICE/localhost:area-service:8001 - registration status: 204
+2018-11-04 13:33:05.388  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:33:05.398  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:33:05.393  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-11-04 13:33:05.403  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:33:05.403  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-11-04 13:33:05.403  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-11-04 13:33:05.403  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2018-11-04 13:33:05.403  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2018-11-04 13:33:05.403  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-11-04 13:33:05.490  INFO 18332 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:33:05.506  INFO 8732 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2018-11-04 13:37:35.027  INFO 8732 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:37:35.048  INFO 18332 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:42:35.030  INFO 8732 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:42:35.065  INFO 18332 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:47:35.031  INFO 8732 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:47:35.082  INFO 18332 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:48:20.892  INFO 8732 --- [http-nio-8000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-04 13:48:20.901  INFO 8732 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-04 13:48:20.901  INFO 8732 --- [http-nio-8000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2018-11-04 13:48:20.963  INFO 8732 --- [http-nio-8000-exec-2] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:48:25.096  INFO 18332 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-04 13:48:25.113  INFO 18332 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-11-04 13:48:25.114  INFO 18332 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2018-11-04 13:48:25.208  INFO 18332 --- [http-nio-8001-exec-1] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:48:26.997  INFO 8732 --- [http-nio-8000-exec-3] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:48:27.903  INFO 18332 --- [http-nio-8001-exec-2] c.e.m.a.c.AreaServiceController          : AreaServiceController.getArea.area---> {}50.26548245743669
+2018-11-04 13:52:35.050  INFO 8732 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-11-04 13:52:35.086  INFO 18332 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
