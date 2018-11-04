@@ -1,4 +1,4 @@
-package com.evergreenprogrammers.microservices.commonnamingserver;
+package com.evergreenprogrammer.microservices.commonnamingserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
